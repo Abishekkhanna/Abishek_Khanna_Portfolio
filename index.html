@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abishek Khanna | Frontend Developer</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">AK</div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" class="resume-btn" id="navResumeBtn">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span>Abishek Khanna</span></h1>
+                <div class="typing-container">
+                    <p id="typing-text"></p>
+                </div>
+                <p class="hero-description">Passionate frontend developer creating beautiful and functional web experiences</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="primary-btn">View Work</a>
+                    <a href="#contact" class="secondary-btn">Let's Connect</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/Abishekkhanna" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/abishekkhanna/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:abishekkhanna1203@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.instagram.com/abishek_khanna_" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.leetcode.com/abishekkhanna1203" target="_blank" aria-label="LeetCode">
+                        <i class="fa-solid fa-code"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="blob">
+                        <!-- <img src="assets/images/profile-hero.jpg" alt="Abishek Khanna"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrow">
+                    <span></span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="section-heading">
+            <h2>About Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a <span class="highlight">passionate frontend developer</span> who loves crafting beautiful and interactive web experiences. With a strong <span class="highlight">problem-solving mindset</span>, I enjoy tackling challenges and bringing creative ideas to life through code.</p>
+                <p>Currently focused on expanding my skills to become a <span class="highlight">full-stack developer</span>. My love for learning, coding, and building keeps me motivated every day!</p>
+                <div class="about-cta">
+                    <a href="#" id="downloadBtn" class="primary-btn">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+            <div class="stats-container">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="stat-number" data-target="115">0</div>
+                    <div class="stat-title">LeetCode<br/>Problem Solved</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="stat-number" data-target="12">0</div>
+                    <div class="stat-title">Projects Completed</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="stat-number" data-target="1110">0</div>
+                    <div class="stat-title">Skillrack<br/>Problem Solved</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="stat-number" data-target="1">0</div>
+                    <div class="stat-title">Years Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="section-heading">
+            <h2>Skills & Expertise</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="skills-content">
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-desktop"></i>
+                </div>
+                <h3>Frontend Development</h3>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%"></div>
+                    </div>
+                    <span class="progress-text">90%</span>
+                </div>
+                <div class="skill-tags">
+                    <span>JavaScript</span>
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>React</span>
+                    <span>Bootstrap</span>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h3>Backend Development</h3>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 20%"></div>
+                    </div>
+                    <span class="progress-text">20%</span>
+                </div>
+                <div class="skill-tags">
+                    <span>Node.js</span>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-puzzle-piece"></i>
+                </div>
+                <h3>Problem Solving</h3>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 95%"></div>
+                    </div>
+                    <span class="progress-text">95%</span>
+                </div>
+                <div class="skill-tags">
+                    <span>Data Structures</span>
+                    <span>Skillrack</span>
+                    <span>LeetCode</span>
+                    <span>HackerRank</span>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3>Database Management</h3>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 40%"></div>
+                    </div>
+                    <span class="progress-text">40%</span>
+                </div>
+                <div class="skill-tags">
+                    <span>MySQL</span>
+                    <span>MongoDB</span>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <h3>Other Skills</h3>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%"></div>
+                    </div>
+                    <span class="progress-text">80%</span>
+                </div>
+                <div class="skill-tags">
+                    <span>C</span>
+                    <span>Java</span>
+                    <span>Python</span>
+                    <span>R</span>
+                    <span>GitHub</span>
+                    <span>VAPT</span>
+                </div>
+            </div>
+            
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3>UI/UX Design</h3>
+                <div class="progress-container">
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 70%"></div>
+                    </div>
+                    <span class="progress-text">70%</span>
+                </div>
+                <div class="skill-tags">
+                    <span>Figma</span>
+                    <span>Canva</span>
+                    <span>Responsive Design</span>
+                    <span>Adobe Photoshop</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="section-heading">
+            <h2>Experience & Education</h2>
+            <div class="underline"></div>
+        </div>
+        
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="experience-tab">
+                <i class="fas fa-briefcase"></i> Experience
+            </button>
+            <button class="tab-btn" data-tab="education-tab">
+                <i class="fas fa-graduation-cap"></i> Education
+            </button>
+        </div>
+        
+        <div class="tab-content">
+            <div id="experience-tab" class="tab-pane active">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">
+                            <i class="far fa-calendar-alt"></i>
+                            Aug 2023 - Dec 2024
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Developer & Code Optimization Lead</h3>
+                            <h4>Pacific Creation <span class="badge">Remote</span></h4>
+                            <ul>
+                                <li>Managed personalized snippets to streamline development</li>
+                                <li>Automated workflows to reduce effort and improve productivity</li>
+                                <li>Enhanced efficiency by optimizing components</li>
+                                <li>Improved quality by implementing best practices</li>
+                                <li>Assisted teams in debugging performance</li>
+                            </ul>
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>WordPress</span>
+                                <span>Bootstrap</span>
+                                <span>Git</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">
+                            <i class="far fa-calendar-alt"></i>
+                            Nov 2023 - Dec 2023
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Cybersecurity Intern</h3>
+                            <h4>Ozone Cyber Security <span class="badge">Trichy</span></h4>
+                            <ul>
+                                <li>Specialized in Vulnerability Assessment and Penetration Testing (VAPT)</li>
+                                <li>Identified security risks and strengthened cyber defense mechanisms</li>
+                                <li>Developed secure coding practices to prevent vulnerabilities</li>
+                                <li>Conducted penetration tests to enhance system security</li>
+                            </ul>
+                            <div class="tags">
+                                <span>VAPT</span>
+                                <span>Penetration Testing</span>
+                                <span>OWASP</span>
+                                <span>Burpsuite</span>
+                                <span>Nmap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="education-tab" class="tab-pane">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">
+                            <i class="far fa-calendar-alt"></i>
+                            Nov 2022 - Present
+                        </div>
+                        <div class="timeline-content">
+                            <h3>B.E Computer Science and Engineering</h3>
+                            <h4>K. Ramakrishnan College of Engineering <span class="badge">Trichy</span></h4>
+                            <ul>
+                                <li>Excelling in academics with a <strong>current CGPA of 8.88/10</strong></li>
+                                <li>Gaining hands-on experience in development and problem-solving</li>
+                                <li>Passionate about technology, coding, and innovation</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">
+                            <i class="far fa-calendar-alt"></i>
+                            2020 - 2022
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Higher Secondary Certificate (HSC)</h3>
+                            <h4>Rathana Matric Hr. Sec. School <span class="badge">Cuddalore</span></h4>
+                            <ul>
+                                <li>Achieved <strong>93.3%</strong> in board exams with outstanding performance</li>
+                                <li>Secured <strong>centum</strong> in Mathematics and Computer Science</li>
+                                <li>Earned <strong>3rd place</strong> in school board exams</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">
+                            <i class="far fa-calendar-alt"></i>
+                            2018 - 2020
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Secondary School Certificate (SSC)</h3>
+                            <h4>St.Annes Matric Hr. Sec. School <span class="badge">Cuddalore</span></h4>
+                            <ul>
+                                <li>Scored <strong>90.7%</strong> in board exams with excellent results</li>
+                                <li>Consistently performed well across all subjects</li>
+                                <li>Developed a strong foundation in academics</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="section-heading">
+            <h2>Featured Projects</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="projects-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="app">App</button>
+            <button class="filter-btn" data-filter="other">Other</button>
+        </div>
+        <div class="projects-grid" id="projects-grid">
+            <!-- Projects will be inserted here dynamically -->
+        </div>
+        <div class="pagination" id="pagination-wrapper">
+            <!-- Pagination buttons will be inserted here dynamically -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="section-heading">
+            <h2>Get In Touch</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>abishekkhanna1203@gmail.com</p>
+                    <a href="mailto:abishekkhanna1203@gmail.com" class="contact-link">Send Email</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Phone</h3>
+                    <p>+91 8531966067</p>
+                    <a href="tel:+918531966067" class="contact-link">Call Me</a>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Location</h3>
+                    <p>Cuddalore, Tamil Nadu, India</p>
+                    <a href="https://maps.google.com/?q=Cuddalore,Tamil+Nadu,India" target="_blank" class="contact-link">View on Map</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Abishekkhanna" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/abishekkhanna/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/abishek_khanna_" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.leetcode.com/abishekkhanna1203" target="_blank" aria-label="LeetCode">
+                        <i class="fa-solid fa-code"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <form id="contact-form" action="https://getform.io/f/bllyxjmb" method="POST">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">AK</div>
+            <p>Creating exceptional digital experiences</p>
+            <div class="footer-social">
+                <a href="https://github.com/Abishekkhanna" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/abishekkhanna/" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:abishekkhanna1203@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.instagram.com/abishek_khanna_" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Abishek Khanna. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
