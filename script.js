@@ -169,6 +169,15 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Project filter and pagination
     const projects = [
+        {
+            title: "Digital Learning for Disabilities",
+            img: "Screenshot (104).png",
+            desc: "An AI-powered web application designed to assist individuals with disabilities in learning through gesture recognition, voice commands, and an AI tutor. Developed during the MKCE Karur Hackathon to make education more interactive, accessible, and fun for everyone!",
+            tags: ["HTML", "CSS", "JavaScript", "Python", "Django"],
+            live: "https://github.com/Abishekkhanna/Digital-Learning-for-Disabilities",
+            github: "https://github.com/Abishekkhanna/Digital-Learning-for-Disabilities",
+            category: "AI & Accessibility"
+        },
         { 
             title: "ATM Machine", 
             img: "atm.jpg", 
