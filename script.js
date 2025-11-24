@@ -179,6 +179,15 @@ document.addEventListener("DOMContentLoaded", function() {
             category: "AI & Accessibility"
         },
         { 
+            title: "Smart Library Management System", 
+            img: "Screenshot (2).png", 
+            desc: "An AI-powered library management system using image processing for book recognition.", 
+            tags: ["Python", "OpenCV", "Image Processing"], 
+            live: "https://github.com/Abishekkhanna/Smart-Library-Management-System", 
+            github: "https://github.com/Abishekkhanna/Smart-Library-Management-System",
+            category: "app"
+        },
+        { 
             title: "ATM Machine", 
             img: "atm.jpg", 
             desc: "An ATM Machine System in Java enables users to authenticate via PIN, check balance, withdraw, deposit, transfer funds, and view a mini statement.", 
@@ -222,15 +231,6 @@ document.addEventListener("DOMContentLoaded", function() {
             live: "https://abishekkhanna.github.io/Restaurant-Website-using-HTML-CSS-/", 
             github: "https://github.com/Abishekkhanna/Restaurant-Website-using-HTML-CSS-",
             category: "web"
-        },
-        { 
-            title: "Smart Library Management System", 
-            img: "Screenshot (2).png", 
-            desc: "An AI-powered library management system using image processing for book recognition.", 
-            tags: ["Python", "OpenCV", "Image Processing"], 
-            live: "https://github.com/Abishekkhanna/Smart-Library-Management-System", 
-            github: "https://github.com/Abishekkhanna/Smart-Library-Management-System",
-            category: "app"
         },
         { 
             title: "Restaurant Website", 

@@ -363,11 +363,14 @@ nav {
 
 .blob {
     position: absolute;
-    width: 550px;
-    height: 550px;
+    width: 530px;
+    height: 530px;
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     border-radius: 43% 57% 70% 30% / 30% 44% 56% 70%;
     animation: blob-animation 8s infinite;
+    background-image: url(../images/profile-new1.jpg);
+    background-position: top;
+    background-size: cover;
 }
 
 
@@ -670,9 +673,10 @@ nav {
     position: absolute;
     width: 2px;
     height: 100%;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(132, 104, 104, 0.1);
     left: 0;
     top: 0;
+    margin-left: 10px;
 }
 
 .timeline-item {
