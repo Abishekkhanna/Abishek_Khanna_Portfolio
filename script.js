@@ -70,9 +70,9 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Typing effect
     const textArray = [
-        "🔥 Pre-final Year Student",
-        "🧩 Problem Solver",
-        "🚀 Full-Stack Enthusiast",
+        "🎓 Computer Science Graduate",
+        "🚀 Full-Stack Developer",
+        "🧠 Building Real-World Projects",
         "💻 Love for Coding"
     ];
     
